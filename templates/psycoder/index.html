@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>PSYCODER</title>
+</head>
+<body>
+    <main>
+        <div class="main-page">
+            <div class="dev">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias facere ratione voluptas praesentium tempore ipsam dignissimos molestiae ducimus commodi. Quod!</p>
+                <div class="btn">
+                    <button class="dev-btn"><a href="{% url 'developer:home' %}">For Developer</a></button>
+                </div>
+            </div>
+            <div class="pro">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias facere ratione voluptas praesentium tempore ipsam dignissimos molestiae ducimus commodi. Quod!</p>
+                <div class="btn">
+                    <button class="pro-btn"><a href="{% url 'programmer:home' %}">For Programmer</a></button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

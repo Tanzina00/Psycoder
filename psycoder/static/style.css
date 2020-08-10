@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    background: url('./img/dandpbg.jpg');
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    
+}
+
+button {
+    font-family: 'Dosis', sans-serif;
+}
+
+.main-page{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dev {
+    flex: 1;
+    height: 65vh;
+    border-radius: 10px;
+    background-color: rgba(243, 239, 239, 0.712);
+    padding: 20px 40px;
+    margin-right: 20px;
+}
+
+.dev:hover{
+    background-color: lightgray;
+}
+
+.dev p{
+    font-size: 20px;
+    padding: 30px 0;
+    color: black;
+}
+.dev .dev-btn {
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background: rgb(71, 192, 41);
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+
+.dev .dev-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.dev .dev-btn a:hover{
+    color: lightgrey;
+    font-weight: bold;
+}
+
+.pro{
+    flex: 1;
+    height: 65vh;
+    background-color: rgba(243, 239, 239, 0.712);
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+.pro:hover {
+    background-color: lightgray;
+}
+
+.pro p{
+    font-size: 20px;
+    padding: 30px 0;
+    color: black;
+}
+
+.pro .pro-btn {
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background: rgb(71, 192, 41);
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+
+.pro .pro-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.pro .pro-btn a:hover{
+    color: lightgray;
+    font-weight: bold;
+}
